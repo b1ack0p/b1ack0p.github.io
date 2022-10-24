@@ -175,7 +175,7 @@ p.link1 {
 	line-height: 10px;
 	font-size: 13px;
 	}
-	a.button_html {
+	a.button_main {
 		color: #ffffff;
 		font-size: 17px;
 		padding-top: 15px;
@@ -189,7 +189,7 @@ p.link1 {
 		letter-spacing: 0;
 	}
 	
-	.button_html:hover { 
+	.button_main:hover { 
 		color:#0066ff;
 		background-color:#FFFFFF;
 	}
