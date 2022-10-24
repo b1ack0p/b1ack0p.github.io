@@ -182,7 +182,7 @@ p.link1 {
 		padding-bottom: 5px;
 		padding-left: 5px;
 		padding-right: 5px;
-		background-color: #ff0000;
+		background-color: #0066ff;
 		text-decoration: none;
 		font-weight: none;
 		text-align: left;
@@ -193,119 +193,6 @@ p.link1 {
 		color:#0066ff;
 		background-color:#FFFFFF;
 	}
-
-	a.button_css {
-		color: #ffffff;
-		font-size: 17px;
-		padding-top: 15px;
-		padding-bottom: 5px;
-		padding-left: 5px;
-		padding-right: 5px;
-		background-color: #0066ff;
-		text-decoration: none;
-		font-weight: none;
-		text-align: left;
-		letter-spacing: 0;
-	}
-	
-	.button_css:hover { 
-		color:#0066ff;
-		background-color:#FFFFFF;
-	}
-	a.button_js {
-		color: #ffffff;
-		font-size: 17px;
-		padding-top: 15px;
-		padding-bottom: 5px;
-		padding-left: 5px;
-		padding-right: 5px;
-		background-color: #ffcc00;
-		text-decoration: none;
-		font-weight: none;
-		text-align: left;
-		letter-spacing: 0;
-	}
-	
-	.button_js:hover { 
-		color:#0066ff;
-		background-color:#FFFFFF;
-	}
-	
-
-	a.button_php {
-		color: #ffffff;
-		font-size: 17px;
-		padding-top: 15px;
-		padding-bottom: 5px;
-		padding-left: 5px;
-		padding-right: 5px;
-		background-color: #0066ff;
-		text-decoration: none;
-		font-weight: none;
-		text-align: left;
-		letter-spacing: 0;
-	}
-	
-	.button_php:hover { 
-		color:#0066ff;
-		background-color:#FFFFFF;
-	}
-	a.button_sql {
-		color: #ffffff;
-		font-size: 17px;
-		padding-top: 15px;
-		padding-bottom: 5px;
-		padding-left: 5px;
-		padding-right: 5px;
-		background-color: #8e44ad;
-		text-decoration: none;
-		font-weight: none;
-		text-align: left;
-		letter-spacing: 0;
-	}
-	
-	.button_sql:hover { 
-		color:#0066ff;
-		background-color:#FFFFFF;
-	}
-
-	a.button_pyt {
-		color: #ffffff;
-		font-size: 17px;
-		padding-top: 15px;
-		padding-bottom: 5px;
-		padding-left: 5px;
-		padding-right: 5px;
-		background-color: #0066ff;
-		text-decoration: none;
-		font-weight: none;
-		text-align: left;
-		letter-spacing: 0;
-	}
-	
-	.button_pyt:hover { 
-		color:#0066ff;
-		background-color:#FFFFFF;
-	}
-	a.button_contact {
-		color: #ffffff;
-		font-size: 17px;
-		padding-top: 15px;
-		padding-bottom: 5px;
-		padding-left: 5px;
-		padding-right: 5px;
-		background-color: #000000;
-		text-decoration: none;
-		font-weight: none;
-		text-align: left;
-		letter-spacing: 0;
-	}
-	
-	.button_contact:hover { 
-		color:#0066ff;
-		background-color:#FFFFFF;
-	}
-
 
 	.return:hover { 
 		color:#ffffff;
