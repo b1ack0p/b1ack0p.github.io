@@ -170,7 +170,7 @@ p.link1 {
 	font-size: 13px;
 }
 	
-a.button_main {
+a.button_blue {
 	color: #ffffff;
 	font-size: 17px;
 	padding-top: 15px;
@@ -184,8 +184,27 @@ a.button_main {
 	letter-spacing: 0;
 }
 	
-.button_main:hover { 
+.button_blue:hover { 
 	color:#0066ff;
+	background-color:#FFFFFF;
+}
+
+a.button_red {
+	color: #ffffff;
+	font-size: 17px;
+	padding-top: 15px;
+	padding-bottom: 5px;
+	padding-left: 5px;
+	padding-right: 5px;
+	background-color: #ff0000;
+	text-decoration: none;
+	font-weight: none;
+	text-align: left;
+	letter-spacing: 0;
+}
+	
+.button_red:hover { 
+	color: #ff0000;
 	background-color:#FFFFFF;
 }
 
