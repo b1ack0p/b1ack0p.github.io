@@ -8,32 +8,34 @@ body {
 	margin-top: -10px;
 	margin-bottom: 0px;
 }
+
 ul {
 	margin-left: -40px;
 }
+
 li {
 	padding-top: 5px;
 	padding-bottom: 5px;
 	list-style-type: none;
 }
+
 header {
 	font-family: Ubuntu Mono;
 	color: #ffffff;
 	background-color: #0066ff;
 	font-size: 5em;
 	font-weight: bold;
-padding-top: 5px;
-margin-top: 5px;
+	padding-top: 5px;
+	margin-top: 5px;
 	padding-bottom: 5px;
     margin-bottom: 5px;
     margin-top: 20px;
     text-align: left;
-padding-left: 5px;
+	padding-left: 5px;
 	letter-spacing: 0;
 }
 
 footer {
-
     font-family: Ubuntu Mono;
     color: #0066ff;
     background-color: #ffffff;
@@ -41,10 +43,9 @@ footer {
     margin-bottom: 50px;
     margin-top: 0px;
 	font-weight: normal;
-font-style: italic;
+	font-style: italic;
     text-align: left;
     letter-spacing: 0px;
-	
 	}
 
 /* COMMENT */
@@ -53,7 +54,7 @@ p {
     line-height: 21px;
 }
 	
-	a.header-url {
+a.header-url {
 	font-family: Ubuntu Mono;
 	color: #ffffff;
     background-color: #0066ff;
@@ -64,9 +65,9 @@ p {
 	font-weight: lighter;
     text-align: left;
     letter-spacing: 0;
-	}
+}
 	
-	.header-url:hover { 
+.header-url:hover { 
 	font-family: Ubuntu Mono;
 	color: #ff0000;
     background-color: #0066ff;
@@ -77,23 +78,22 @@ p {
 	font-weight: lighter;
     text-align: left;
 	letter-spacing: 0;
-	}
+}
 
 h1 {
 	font-family: Ubuntu Mono;
 	color: #ffffff;
     background-color: #0066ff;
 	font-size: 3em;
-padding-top: 5px;
-margin-top: 5px;
+	padding-top: 5px;
+	margin-top: 5px;
 	padding-bottom: 5px;
     margin-bottom: 5px;
     margin-top: 20px;
     text-align: left;
-padding-left: 5px;
+	padding-left: 5px;
     letter-spacing: 0;
 }
-
 
 h2 {
     color: #000000;
@@ -134,114 +134,107 @@ img.main {
 	align-content: left;
 }
 
-
 strong {
     font-style: bold;
     text-transform: bold;
 }
 
-	p.border {
-	
+p.border {	
 	border-width: 4px;
 	margin-top:10px;
 	margin-bottom: 10px;
 	border-top-style:dashed;
 	border-bottom-style:doubled;
-
-	}
+}
 	
-	p.border2 {
-	
+p.border2 {	
 	border-width: 1px;
 	margin-top: 20px;
 	margin-bottom: 15px;
 	border-top-style:dashed;
 	border-bottom-style:doubled;
-
-	}
+}
 	
-	p.border3 {
-	
+p.border3 {	
 	border-width: 2px;
 	margin-top: 20px;
 	margin-bottom: 15px;
 	border-top-style:dashed;
 	border-bottom-style:doubled;
-	}
+}
 	
 p.link1 {
     color: #000000;
 	line-height: 10px;
 	font-size: 13px;
-	}
-	a.button_main {
-		color: #ffffff;
-		font-size: 17px;
-		padding-top: 15px;
-		padding-bottom: 5px;
-		padding-left: 5px;
-		padding-right: 5px;
-		background-color: #0066ff;
-		text-decoration: none;
-		font-weight: none;
-		text-align: left;
-		letter-spacing: 0;
-	}
+}
 	
-	.button_main:hover { 
-		color:#0066ff;
-		background-color:#FFFFFF;
-	}
+a.button_main {
+	color: #ffffff;
+	font-size: 17px;
+	padding-top: 15px;
+	padding-bottom: 5px;
+	padding-left: 5px;
+	padding-right: 5px;
+	background-color: #0066ff;
+	text-decoration: none;
+	font-weight: none;
+	text-align: left;
+	letter-spacing: 0;
+}
+	
+.button_main:hover { 
+	color:#0066ff;
+	background-color:#FFFFFF;
+}
 
-	.return:hover { 
-		color:#ffffff;
-		background-color:#000000;
-	}
-	
+.return:hover { 
+	color:#ffffff;
+	background-color:#000000;
+}
 
-	a.url3 {
-		color: #ffffff;
-		background-color: #000000;
-		margin-top: 30px;
-		margin-right: 5px;
-		padding-top: 3px;
-		padding-bottom: 3px;
-		padding-left: 5px;
-		padding-right: 5px;
-		text-decoration: none;
-	}
+a.url3 {
+	color: #ffffff;
+	background-color: #000000;
+	margin-top: 30px;
+	margin-right: 5px;
+	padding-top: 3px;
+	padding-bottom: 3px;
+	padding-left: 5px;
+	padding-right: 5px;
+	text-decoration: none;
+}
 	
+.url3:hover { 
+	color:#000000;
+	background-color:#FFFFFF;
+}
 	
-	.url3:hover { 
-		color:#000000;
-		background-color:#FFFFFF;
-	}
-	
-	a.visit {
-		color: #000000;
-		font-size: 15px;
-		padding-top: 5px;
-		padding-bottom: 5px;
-		padding-left: 0px;
-		padding-right: 0px;
-		background-color: #ffffff;
-		text-decoration: none;
-		font-weight: none;
-		text-align: left;
-		letter-spacing: 0;
-	}
+a.visit {
+	color: #000000;
+	font-size: 15px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	padding-left: 0px;
+	padding-right: 0px;
+	background-color: #ffffff;
+	text-decoration: none;
+	font-weight: none;
+	text-align: left;
+	letter-spacing: 0;
+}
 
 	/*media queries*/
 
-	@media(max-width: 768px){
-		header,
-		header nav,
-		header nav li,
-		img,
-		footer{
-			float: none;
-			text-align: left;
-			width: 100%;
-			margin: none;
+@media(max-width: 768px){
+	header,
+	header nav,
+	header nav li,
+	img,
+	footer{
+		float: none;
+		text-align: left;
+		width: 100%;
+		margin: none;
 		}
-	}
+}
