@@ -1,11 +1,3 @@
-@import url('fonts.googleapis.com/css?family=Roboto:300,400,500');
-
-* {font-family: 'Roboto Light', 'Roboto Medium', 'Roboto', etc}
-
-.Roboto{font-family:'Roboto';font-weight:400;} /* 400 is industry standard for normal */
-.RobotoLight{font-familiy:'Roboto';font-weight:300;} /* 300 is industry standard for normal */
-.RobotoMedium{font-family:'Roboto';font-weight:500;} /* 500 is industry standard for normal */
-
 body {
 	font-family: "Roboto";
 	font-weight: 400;
