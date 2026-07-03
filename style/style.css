@@ -1,0 +1,91 @@
+/* b1ack0p personal page. Layout only: a dashed frame around
+   header / body / footer. Simple and responsive. */
+
+* {
+	box-sizing: border-box;
+}
+
+html {
+	-webkit-text-size-adjust: 100%;
+	text-size-adjust: 100%;
+}
+
+body {
+	margin: 0;
+}
+
+/* Dashed side frame; equal gutter on all sides. */
+.frame {
+	margin: 0.5rem;
+	min-height: calc(100vh - 1rem);
+	display: flex;
+	flex-direction: column;
+	border-left: 1px dashed;
+	border-right: 1px dashed;
+}
+
+header {
+	border-bottom: 1px dashed;
+}
+
+footer {
+	border-top: 1px dashed;
+	font-style: italic;
+}
+
+/* Body grows so the footer stays at the bottom; min-width:0 prevents overflow. */
+main {
+	flex: 1 0 auto;
+	min-width: 0;
+}
+
+.wrap {
+	padding: 1rem;
+}
+
+/* ASCII art: scales down to fit small screens. */
+.ascii {
+	margin: 0 0 0.5rem;
+	line-height: 1.2;
+	font-size: clamp(0.5rem, 2.7vw, 1rem);
+}
+
+/* Keep footer badges within narrow screens. */
+img {
+	max-width: 100%;
+	height: auto;
+}
+
+nav ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+nav a {
+	margin-right: 0.75rem;
+}
+
+/* Repository list: ">" markers instead of bullets. */
+ul.repos {
+	list-style: none;
+	margin: 1rem 0;
+	padding: 0;
+}
+
+ul.repos li {
+	position: relative;
+	margin: 0.6rem 0;
+	padding-left: 1.25rem;
+}
+
+ul.repos li::before {
+	content: ">";
+	position: absolute;
+	left: 0;
+}
+
+.badge {
+	vertical-align: middle;
+	margin: 0.25rem 0.5rem 0.25rem 0;
+}
